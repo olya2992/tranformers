@@ -63,7 +63,7 @@ setRobot((robot =>{
        </div>
  
 {bot.map((element =>{
-  const {name, image} = element;
+  const {name, image, id, about} = element;
   return(<div  >
       <div className='bots'>
         <h3>{name}</h3>
